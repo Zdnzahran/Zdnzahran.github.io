@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style>
+    .container {
+      max-width: 800px;
+      margin: 0 auto;
+      padding: 20px;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+    }
+
+    .box {
+      width: 48%;
+      padding: 20px;
+      text-align: center;
+      margin-bottom: 20px;
+      background-color: #f9f9f9;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+
+    .box img {
+      max-width: 100%;
+      height: auto;
+      margin-bottom: 10px;
+    }
+
+    .buy-button {
+      display: block;
+      width: 100%;
+      padding: 10px;
+      text-align: center;
+      background-color: #4CAF50;
+      color: white;
+      text-decoration: none;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+      transition: background-color 0.3s ease;
+    }
+
+    .buy-button:hover {
+      background-color: #45a049;
+    }
+
+    .header {
+      text-align: center;
+      margin-bottom: 20px;
+    }
+
+    .price {
+      font-weight: bold;
+      color: #555;
+      margin-bottom: 10px;
+      margin-top: auto;
+    }
+
+    .product-name {
+      font-weight: bold;
+      margin-bottom: 10px;
+      margin-top: auto; 
+    }
+
+    @media screen and (max-width: 600px) {
+      .box {
+        width: 100%;
+      }
+    }
+  </style>
+</head>
+<body>
+
+<div class="header">
+  <h1>Toko Kue SepiSial Mas Irfan</h1>
+</div>
+
+<div class="container">
+  <div class="box">
+    <img src="./63a9455131fe1.jpg" alt="Roti 1">
+    <p class="product-name">Roti Tawar</p>
+    <p class="price">Rp 10.000</p>
+<a href="./pembayaran.html" class="buy-button">Beli</a>
+  </div>
+  
+  <div class="box">
+    <img src="./gembong.jpg" alt="Roti 2">
+    <p class="product-name">Roti Gombong</p>
+    <p class="price">Rp 15.000</p>
+    <a href="./pembayaran.html" class="buy-button">Beli</a>
+  </div>
+
+  <div class="box">
+    <img src="./cake.jpg" alt="Roti 3">
+    <p class="product-name">Roti Cake</p>
+    <p class="price">Rp 20.000</p>
+    <a href="./pembayaran.html" class="buy-button">Beli</a>
+  </div>
+
+  <div class="box">
+    <img src="./roti-kopi-ala-roti-o-20220517-112058.jpg" alt="Roti 4">
+    <p class="product-name">Roti P</p>
+    <p class="price">Rp 8.000</p>
+    <a href="./pembayaran.html" class="buy-button">Beli</a>
+  </div>
+</div>
+
+<a href="https://www.toko-roti.com" target="_blank"></a>
+
+</body>
+</html>

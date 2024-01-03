@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Pembayaran</title>
+  <!-- CSS atau styling untuk halaman pembayaran -->
+  <style>
+    /* CSS untuk layout pembayaran */
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 20px;
+      text-align: center;
+    }
+
+    .payment-form {
+      max-width: 600px;
+      margin: 0 auto;
+      padding: 20px;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+      background-color: #f9f9f9;
+    }
+
+    input[type="text"], input[type="email"], input[type="number"] {
+      width: 100%;
+      padding: 10px;
+      margin-bottom: 10px;
+      border-radius: 5px;
+      border: 1px solid #ccc;
+    }
+
+    .submit-button {
+      display: block;
+      width: 100%;
+      padding: 10px;
+      background-color: #4CAF50;
+      color: white;
+      text-decoration: none;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+      transition: background-color 0.3s ease;
+    }
+
+    .submit-button:hover {
+      background-color: #45a049;
+    }
+  </style>
+</head>
+<body>
+
+<div class="payment-form">
+  <h2>Formulir Pembayaran</h2>
+  <form action="https://wa.me/6282134644891" method="GET">
+    <input type="text" name="nama" placeholder="Nama lengkap"><br>
+    <input type="email" name="email" placeholder="Email"><br>
+    <input type="number" name="jumlah" placeholder="Jumlah pembayaran"><br>
+    <input type="submit" value="Bayar" class="submit-button">
+  </form>
+</div>
+
+</body>
+</html>
